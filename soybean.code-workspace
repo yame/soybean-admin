@@ -1,0 +1,46 @@
+{
+  "name": "soybean",
+  "folders": [
+    {
+      "path": ".",
+      "name": "soybean",
+    },
+    {
+      "path": "./packages/alova",
+      "name": "alova",
+    },
+    {
+      "path": "./packages/axios",
+      "name": "axios",
+    },
+    {
+      "path": "./packages/color",
+      "name": "color",
+    },
+    {
+      "path": "./packages/hooks",
+      "name": "hooks",
+    },
+    {
+      "path": "./packages/materials",
+      "name": "materials",
+    },
+    {
+      "path": "./packages/utils",
+      "name": "utils",
+    },
+    {
+      "path": "./packages/ofetch",
+      "name": "ofetch",
+    },
+    {
+      "path": "./packages/scripts",
+      "name": "scripts",
+    },
+    {
+      "path": "./packages/uno-preset",
+      "name": "uno-preset",
+    },
+
+  ]
+}
