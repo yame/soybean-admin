@@ -1,9 +1,9 @@
 {
-  "name": "soybean",
+  "name": "soybean-admin",
   "folders": [
     {
       "path": ".",
-      "name": "soybean",
+      "name": "soybean-admin",
     },
     {
       "path": "./packages/alova",
