@@ -55,13 +55,15 @@ declare namespace Api {
    */
   namespace Auth {
     interface LoginToken {
-      token: string;
+      accessToken: string;
       refreshToken: string;
     }
 
     interface UserInfo {
-      userId: string;
-      userName: string;
+      id: string;
+      username: string;
+      nickname: string;
+      email: string;
       roles: string[];
       buttons: string[];
     }
