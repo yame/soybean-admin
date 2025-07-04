@@ -74,5 +74,35 @@ export const generatedRoutes: GeneratedRoute[] = [
       constant: true,
       hideInMenu: true
     }
+  },
+  {
+    name: 'user',
+    path: '/user',
+    component: 'layout.base',
+    meta: {
+      title: 'user',
+      i18nKey: 'route.user'
+    },
+    children: [
+      {
+        name: 'user_detail',
+        path: '/user/detail',
+        component: 'view.user_detail',
+        meta: {
+          title: 'user_detail',
+          i18nKey: 'route.user_detail',
+          hideInMenu: true
+        }
+      },
+      {
+        name: 'user_list',
+        path: '/user/list',
+        component: 'view.user_list',
+        meta: {
+          title: 'user_list',
+          i18nKey: 'route.user_list'
+        }
+      }
+    ]
   }
 ];
